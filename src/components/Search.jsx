@@ -11,6 +11,7 @@ class Search extends Component {
               name="search"
               className="form-control"
               placeholder="Enter github username..."
+              required
             />
           </div>
           <div className="col-md-3">
