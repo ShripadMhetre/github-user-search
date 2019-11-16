@@ -8,7 +8,7 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <Router>
-      <Header title="Github Search" />
+      <Header title="Github User Search" />
       <Switch>
         <Route exact path="/" component={Main} />
         <Route path="/users/:id" component={Profile} />
